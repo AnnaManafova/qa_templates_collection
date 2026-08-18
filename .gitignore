@@ -1,0 +1,46 @@
+# ===== OS Files =====
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+
+# ===== IDE & Editors =====
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ===== Temporary Files =====
+*.tmp
+*.temp
+*.bak
+*.log
+*.cache
+
+# ===== Screenshots =====
+ screenshots/
+ *.png
+ *.jpg
+ *.jpeg
+ *.gif
+ *.mp4
+
+# ===== Office Files =====
+ *.xlsx
+ *.xls
+ *.docx
+ *.pdf
+ *.zip
+ *.rar
+
+# ===== Local Configuration =====
+.env
+.env.local
+config.local.*
+!config.example.*
+
+# ===== Generated Content =====
+test-results/
+allure-results/
+allure-report/
