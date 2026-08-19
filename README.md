@@ -2,37 +2,51 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-Привет! Это моя обновляемая коллекция шаблонов тестовой документации для различных функциональностей веб-приложений.
+Hi! This repository contains a structured, production-ready collection of software testing artifacts and templates designed for web applications. 
 
 ---
 
-## 📂 Навигация по коллекции
-
-### Чек-листы
-
-| Раздел | Описание | Ссылка |
-|--------|----------|--------|
-| Smoke-тестирование | Быстрые проверки критического функционала | [📁 smoke checklists](checklists/smoke-checklists/) |
-| Функциональное тестирование | Проверка отдельных функций | [📁 functional checklists](checklists/functional-checklists/) |
-| UI/UX | Интерфейс, адаптивность, кроссбраузерность | [📁 ui/ux checklists](checklists/ui-ux-checklists/) |
-
-### Тест-кейсы
-
-| Модуль | Описание | Ссылка |
-|--------|----------|--------|
-| Аутентификация | Логин, регистрация, восстановление пароля | [📁 authentication](test-cases/authentication/) |
-| E-commerce | Каталог, корзина, оформление заказа | [📁 e-commerce](test-cases/e-commerce/) |
-| UI-взаимодействия | Навигация, формы, модальные окна | [📁 ui-interactions](test-cases/ui-interactions/) |
-
-### Баг-репорты
-
-| Раздел | Описание | Ссылка |
-|--------|----------|--------|
-| Шаблон | Структура баг-репорта | [📄 bug report template](bug-reports/bug-report-template.md) |
-| Примеры | Реальные баги с тестовых площадок | [📁 example bugs](bug-reports/example-bugs/) |
+## 💡 Key Highlights of This Collection
+* **Standardized Grammar:** All checklist items strictly utilize action-oriented infinitives (`Verify`, `Check`, `Ensure`).
+* **Modular Structure:** Checklists include optional extensions (e.g., E-commerce blocks) for maximum flexibility across different web domains.
+* **Industry Best Practices:** Templates follow standard QA frameworks, ensuring clear distinctions between Smoke, Sanity, and Functional testing scopes.
 
 ---
 
-## 📄 Лицензия
+## 📂 Navigation
 
-Этот проект распространяется под лицензией [MIT](LICENSE). Вы можете свободно использовать шаблоны в работе.
+### 📋 Checklists
+
+| Section | Description | Link |
+|---------|-------------|------|
+| **Smoke Testing** | Quick checks of critical functionality (5-10 min scope) | [📁 smoke checklists](checklists/smoke-checklists/) |
+| **Functional Testing** | Deep verification of individual features and business logic | [📁 functional checklists](checklists/functional-checklists/) |
+| **UI/UX & Compatibility** | Interface consistency, responsiveness, and cross-browser testing | [📁 ui/ux checklists](checklists/ui-ux-checklists/) |
+
+### 📄 Test Cases
+
+| Module | Description | Link |
+|--------|-------------|------|
+| **Authentication** | Login, registration, password recovery flows | [📁 authentication](test-cases/authentication/) |
+| **E-commerce** | Product catalog, shopping cart logic, and checkout process | [📁 e-commerce](test-cases/e-commerce/) |
+| **UI Interactions** | Navigation menus, dynamic forms, and modal windows | [📁 ui-interactions](test-cases/ui-interactions/) |
+
+### 🐛 Bug Reports
+
+| Section | Description | Link |
+|---------|-------------|------|
+| **Template** | Standardized Bug Report structure (What, Where, When approach) | [📄 bug report template](bug-reports/bug-report-template.md) |
+| **Examples** | Real-world bug reports found on crowdsourced testing platforms | [📁 example bugs](bug-reports/example-bugs/) |
+
+---
+
+## 🛠️ How to Use These Templates
+1. **Clone/Copy:** Feel free to clone this repository or copy specific markdown files.
+2. **Adapt:** Add or remove optional modules depending on your project's business goals.
+3. **Execute:** Use the *Execution Summary* tables at the bottom of the files to log your actual test runs and metrics.
+
+---
+
+## 📄 License
+
+This project is distributed under the [MIT](LICENSE) license. You are free to use these templates in your work or study.
